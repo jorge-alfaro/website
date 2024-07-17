@@ -6,10 +6,8 @@
     <script type="text/javascript">
         const redirectTo = '/';
         if (location.pathname !== redirectTo) {
-            console.log(location.pathname)
-            console.log(redirectTo)
-            console.log(location.search)
             history.replaceState(null, '', redirectTo + location.pathname + location.search);
+            window.location.replace(redirectTo);
         }
     </script>
 </head>
