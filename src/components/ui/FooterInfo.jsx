@@ -13,7 +13,7 @@ export const FooterInfo = () => {
         <ol>
           <li>
             <a
-              href="https://www.linkedin.com/in/jorge-alfaro-495b4a207/"
+              href="https://www.linkedin.com/in/jorg-alfaro"
               target="_blank"
               rel="noreferrer"
               title="LinkedIn"

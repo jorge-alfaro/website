@@ -33,12 +33,16 @@ a:hover {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #564e4e;
   }
+
+  a {
+    font-weight: 500;
+    color: #ec815d;
+    text-decoration: inherit;
+  }
+
   a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color: #eab29f;
   }
 }
