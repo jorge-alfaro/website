@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+        const redirectTo = '/';
+        if (location.pathname !== redirectTo) {
+            history.replaceState(null, '', redirectTo + location.pathname + location.search);
+        }
+    </script>
+</head>
+<body>
+<p>Redirecting...</p>
+</body>
+</html>
