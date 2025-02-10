@@ -13,7 +13,7 @@ export const ProjectsScreen = () => {
     <div>
       <div className="projects-container" id="portfolio">
         <div className="title-center">
-          <h2 tabIndex="9" id="projects">PROJECTS</h2>
+          <h2 tabIndex="10" id="projects">PROJECTS</h2>
         </div>
         <div className="card-container">
           {pro.length === 0 ? (

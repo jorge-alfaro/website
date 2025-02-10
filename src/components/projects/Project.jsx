@@ -12,7 +12,7 @@ export const Project = (el) => {
         <ModalInfo {...el} />
       </Modal>
       <div>
-        <div className="card-item" tabIndex={10 + el.id}>
+        <div className="card-item" tabIndex={11 + el.id}>
           <div className="card-title-screen">
             <h2>{title.toUpperCase()}</h2>
             <i></i>

@@ -29,14 +29,13 @@ export const MainInfoScreen = () => {
           </article>
           <article className="about-item">
             <p className="about_me" tabIndex="7">
-              <b>Hi</b>, my name is Jorge 👋, based in México, I have almost 3
-              years of front-end and 2 years of back-end experience and passion
+              <b>Hi</b>, my name is Jorge 👋, based in México, Full stack dev with almost 5
+              years in web development, 3 years of back-end experience and passion
               for responsive website design.{" "}
             </p>
             <p className="about_me" tabIndex="8">
-              I am always experimenting, always learning, and never bored.
-              Interested in the backend and perpetually working on improving my
-              chops.
+              I&apos; am always experimenting, learning, and never bored.
+              Passionate about backend development, I constantly refine my skills and push myself to build better systems.
             </p>
 
               <div className="about_me">
@@ -48,6 +47,7 @@ export const MainInfoScreen = () => {
                   }
                   target="_blank"
                   rel="noreferrer"
+                  tabIndex="9"
                 >
                  📥 Download CV
                 </a>
