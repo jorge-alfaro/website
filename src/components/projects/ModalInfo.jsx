@@ -16,12 +16,12 @@ export const ModalInfo = ({ desc, repo, title, urlarge, tech }) => {
         <div className="animate__animated animate__fadeIn">
           <div className="text">
             <div className="section">
-              <h2>About this project</h2>
+              <h3>About this project</h3>
               <hr />
               <p>{desc} </p>
             </div>
             <div className="section">
-              <h2>Technical Sheet</h2>
+              <h3>Technical Sheet</h3>
               <p>
                 Code technologies I got involved with while working on this
                 project.
@@ -34,12 +34,12 @@ export const ModalInfo = ({ desc, repo, title, urlarge, tech }) => {
               </ul>
             </div>
             <div className="section">
-              <h2>Resources</h2>
+              <h3>Resources</h3>
               <hr />
               <ul>
                 <li>
                   Read more at{" "}
-                  <a target="_blank" href={repo} rel="noreferrer">
+                  <a className={'link_repo'} target="_blank" href={repo} rel="noreferrer">
                     GitHub repo
                   </a>
                 </li>
